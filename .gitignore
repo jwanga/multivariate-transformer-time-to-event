@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Distribution / packaging
+build/
+dist/
+sdist/
+wheels/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# CMAPSS data (downloaded separately — not committed)
+data/CMAPSSData/
+data/*.zip
+data/*.txt
+data/*.tar.gz
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+*.kaggle.json
+
+# Model checkpoints / artifacts
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
