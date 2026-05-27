@@ -166,8 +166,8 @@ causal training.
 ### Part 5 — Evaluation & distribution → number conversion
 
 - 5.1  md: What "evaluating a survival model" means — C-index, Brier, calibration
-- 5.2  code: C-index on test set (via `lifelines`)
-- 5.3  code: Integrated Brier Score
+- 5.2  code: C-index on test set (from-scratch numpy implementation)
+- 5.3  code: Integrated Brier Score (from-scratch numpy implementation)
 - 5.4  md: From (k, λ) to a number with error bars — quantile derivation + 📊
 - 5.5  code: `weibull_median`, `weibull_mean`, `weibull_quantile`
 - 5.6  code: Batch-convert test predictions → (point_estimate, lower_90, upper_90)
@@ -233,7 +233,6 @@ Pinned in `requirements.txt`:
 - `torch>=2.5` (latest stable PyTorch)
 - `numpy`, `pandas`, `scikit-learn`, `scipy`
 - `matplotlib`, `tqdm`
-- `lifelines` (for C-index and Brier score)
 - `kaggle` (for dataset auto-download)
 - `jupyterlab`, `ipykernel`
 

@@ -93,8 +93,8 @@ degradation dataset.
 
 ### Evaluation
 
-- Concordance index (C-index) via `lifelines`
-- Integrated Brier Score
+- Concordance index (C-index) — implemented from scratch with numpy
+- Integrated Brier Score — implemented from scratch with numpy
 - Weibull `(k, λ)` → point estimates (median, mean) and quantiles
 - Batch conversion of test predictions to
   `(point_estimate, lower_90, upper_90)` tuples

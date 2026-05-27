@@ -21,6 +21,7 @@
   - Decision: intuition-first pedagogy with collapsible rigorous math
   - Design spec written to `docs/superpowers/specs/2026-05-26-tte-transformer-design.md`
 - [2026-05-26 14:45] @contributor: Bootstrap files created — README, REQUIREMENTS, INSTRUCTIONS, MEMORY, requirements.txt, .gitignore, LICENSE, data/README.md
+- [2026-05-26 18:30] @contributor: Dropped `lifelines` dependency. C-index and Integrated Brier Score now scaffolded as from-scratch numpy implementations in cells 5.2 and 5.3 — better alignment with the "build from scratch" pedagogy, removes the pandas version conflict (lifelines pinned pandas<2.1, project uses pandas>=3.0.0), and reduces the dep footprint.
 
 ## Key Decisions
 
